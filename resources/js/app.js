@@ -16,7 +16,7 @@ createInertiaApp({
   setup({ el, app, props }) {
     new Vue({
       metaInfo: {
-        titleTemplate: title => (title ? `${title} - Ping CRM` : 'Ping CRM'),
+        titleTemplate: title => (title ? `${title} | Inersa Davood App` : 'Ping CRM'),
       },
       render: h => h(app, props),
     }).$mount(el)

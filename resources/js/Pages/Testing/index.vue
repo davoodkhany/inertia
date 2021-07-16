@@ -8,7 +8,7 @@
 
 <script>
 
-    import Layout from '@/Shared/Layout'
+import Layout from '@/Shared/Layout'
 
     export default {
         metaInfo: {title: 'testing web site', description: 'my name is davood'},
