@@ -10,6 +10,7 @@ class DashboardController extends Controller
     {
         return Inertia('Dashboard/Index', [
             'foo' => 'bar',
+            'family' => 'khany'
         ]);
     }
 

@@ -6,7 +6,9 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ImagesController;
 use App\Http\Controllers\OrganizationsController;
 use App\Http\Controllers\ReportsController;
+use App\Http\Controllers\TestController;
 use App\Http\Controllers\UsersController;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -145,3 +147,7 @@ Route::get('testing', [DashboardController::class , 'test'])
     ->name('testing')
     ->middleware('auth');
 ;
+
+
+
+Route::get('test', [TestController::class, 'index'] )->name('test');
