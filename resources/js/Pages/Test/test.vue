@@ -1,7 +1,7 @@
 <template>
 
 <div>
-test page impost 
+test page impost
 </div>
 </template>
 
@@ -12,7 +12,6 @@ import Layout from "@/Shared/Layout";
 export default {
 
     layout: Layout,
-
 }
 
 
